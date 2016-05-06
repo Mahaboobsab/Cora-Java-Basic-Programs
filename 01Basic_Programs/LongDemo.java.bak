@@ -1,0 +1,48 @@
+class LongDemo 
+{
+	public static void main(String[] args) 
+	{
+	//	System.out.println("Hello World!");
+	//	byte b = 5; 
+	//	System.out.println("value of b is"+b);
+	//    byte b = 125; 
+	//	System.out.println("value of b is"+b) 
+	//	byte b =(byte) 130;// out of range using type casting
+	//	System.out.println("value of b is"+b);
+	//	short s = 12;
+	//	System.out.println("value of s is"+s);
+     //   long l = 12l;		
+	//	System.out.println("value of l is"+l);
+//floating value single precision
+	   // float f = 12.679f;
+	   //  System.out.println("value of f is"+f); 
+	   //   float f = (float)12.679f;                    
+      //    System.out.println("value of f is"+f);
+ //double preciion value
+	 // double d = 12.679;
+	 // System.out.println("value of d is"+d);
+//double precision with standerd notation
+      //   double d = 75000;
+	 //	System.out.println("value of d is"+d);
+//double preisionscintific notation
+      //  double d = 7.5e4; 
+	  //	System.out.println("value of d is"+d);
+//double precision fractional value standerd notation
+       double d = 0.00075;
+	   System.out.println("value of d is"+d);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+}

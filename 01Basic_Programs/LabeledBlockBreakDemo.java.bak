@@ -1,0 +1,36 @@
+class LabeledBlockBreakDemo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		boolean b = true;
+		first :
+		{
+		System.out.println("entering the first block");
+		second :
+		{
+		System.out.println("entering the second block");
+		third :
+	    {
+		System.out.println("entering the third block");
+		System.out.println("before the break");
+		if (b)
+		{
+		break second;
+		}
+		{
+        System.out.println("End of the third block will not exicute");
+		}
+        {
+	    System.out.println("End of the second block will not exicute");
+		}
+		{
+		System.out.println("End of the first block will not exicute");
+		}
+		System.out.println("End of the all blocks");
+
+   }
+}
+ }
+	}
+}

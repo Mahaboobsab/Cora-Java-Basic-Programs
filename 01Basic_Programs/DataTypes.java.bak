@@ -1,0 +1,12 @@
+class DataTypes 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		//double d =-0.00075;
+		//System.out.println("value of d is"+d);
+         double d =75000;
+		 System.out.println("value of d is"+d);
+
+	}
+}

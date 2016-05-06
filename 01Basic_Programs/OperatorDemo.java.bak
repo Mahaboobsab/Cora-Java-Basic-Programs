@@ -1,0 +1,20 @@
+class OperatorDemo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		int a = 5;
+		a = a+1;
+		System.out.println("value of a is"+a);
+		++a;
+        System.out.println("value of a is"+a);
+		int x = 5;
+		int p = 0;
+		p = x++;
+		System.out.println("value of x is"+x);
+        System.out.println("value of p is"+p);
+		p = ++x;
+		System.out.println("value of x is"+x);
+        System.out.println("value of p is"+p);
+	}
+}

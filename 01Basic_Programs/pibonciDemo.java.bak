@@ -1,0 +1,18 @@
+class whileDemo
+{
+	public static void main(String[] args) 
+	
+		{
+			
+do{
+int m=5;
+System.out.println(m);
+
+}
+while
+	
+m < 0;
+		
+}
+}
+

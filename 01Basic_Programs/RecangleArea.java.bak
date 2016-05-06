@@ -1,0 +1,15 @@
+class RecangleArea 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		short l = 256;
+	    short  b = 156;
+		short a = 20;
+		   a = l*b; 
+		System.out.println("length of the rectangular is"+l); 
+		System.out.println("breath of the rectangular is"+b); 
+		System.out.println("area of the rectangular is"+a); 
+		System.out.println("i have finished my assing"+"length of the rectangular is"+l+"my name is vithal");
+    }
+}

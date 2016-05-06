@@ -1,0 +1,17 @@
+class IntigerLitelDomo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		int i = 12;
+		System.out.println("value of i is"+i);
+		float f = 0.25f;
+		System.out.println("value of i is"+i);
+		long l = 0x523;
+		System.out.println("value of i is"+i);
+		 
+
+
+
+	}
+}

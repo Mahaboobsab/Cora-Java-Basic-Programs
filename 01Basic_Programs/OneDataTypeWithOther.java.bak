@@ -1,0 +1,30 @@
+class OneDataTypeWithOther 
+{
+	public static void main(String[] args) 
+	{
+	//	System.out.println("Hello World!");
+	//	byte b = 5;
+	//	int i = 6;
+	//	int p = b + i;
+	//	System.out.println("value of p is"+p);
+	//	byte b = 5;
+	//	long l = 9;
+	//	long p = b + l;
+	//	System.out.println("value of p is"+p);
+	//	int i = 5;
+	//	long l = 9;
+	//	long p = i + l;
+    //    System.out.println("value of p is"+p);
+	     byte b = 1;
+		 short s = 2;
+		 int i = 3;
+		 long l = 4;
+		 float f = 5.0f;
+		 double d = 6.0;
+		 double z = f*i-s/d+l*b;
+		System.out.println("value of z is"+z);
+
+
+
+	}
+}

@@ -1,0 +1,17 @@
+class BreakForLoop 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		for (i = 0;i <100 ;i++ )
+		{
+			if (i==10)
+			{
+				break;
+			}
+	    System.out.println("value of i is "+i);
+		}
+		System.out.println("End of for loop");
+
+	}
+}

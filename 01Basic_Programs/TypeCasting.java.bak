@@ -1,0 +1,42 @@
+class TypeCasting 
+{
+	public static void main(String[] args) 
+	{
+	//   System.out.println("Hello World!");   
+	  // byte b = 5;                           	
+	 //  int i = 0;                            
+     //  System.out.println("value of b is"+b);
+   //    System.out.println("value of i is"+i);
+	//   i = b;             
+	 //  System.out.println("value of b is"+b);
+	//   System.out.println("value of i is"+i);
+	//   byte b = 0;                           
+	//   int i = 5;                            
+	//   System.out.println("value of b is"+b);
+	//   System.out.println("value of i is"+i);
+	//   b = (byte)i;       
+	//   System.out.println("value of b is"+b);
+	//   System.out.println("value of i is"+i);
+	//   int a = 10;
+//      float f = 0;
+	//   System.out.println("value of a is"+a);
+	//   System.out.println("value of f is"+f);
+	//   f = a;
+     //  System.out.println("value of a is"+a);
+	 //  System.out.println("value of f is"+f);
+     //    int a = 10;
+     //    float f = 0;
+	//     System.out.println("value of a is"+a);
+	 //    System.out.println("value of f is"+f);
+	//      f = a;
+    //     System.out.println("value of a is"+a);
+	//     System.out.println("value of f is"+f);
+	      int a = 0;
+		  float f = 130;
+         System.out.println("value of a is"+a);
+	     System.out.println("value of f is"+f);
+	      a = (byte)f;
+	     System.out.println("value of a is"+a);
+	     System.out.println("value of f is"+f);
+	}
+}

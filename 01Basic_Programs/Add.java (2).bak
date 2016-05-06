@@ -1,0 +1,17 @@
+class Add 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello");
+		int a = 10;
+		int b = 5;
+		int c = 0;
+		System.out.println(c);
+        String s1 = "vittal";
+		String s2 = "engg";
+		String s3 = s1 + s2;
+		System.out.println(s1 +"        "+s2);
+		System.out.println(s3);
+		
+	 }						                                
+  }

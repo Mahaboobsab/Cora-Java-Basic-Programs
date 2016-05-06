@@ -1,0 +1,13 @@
+class ImplisitCasting 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	
+		int i = 5;
+		byte b = 0;
+		b = a;
+        System.out.println("value of b is"+b);
+	}
+}
+		

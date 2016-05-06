@@ -1,0 +1,14 @@
+class WhileDemo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		int n = 5;
+		while (n>0)
+		{ 
+         System.out.println("value of n is"+n);
+		 n--;
+		}
+        System.out.println("End of  while");
+	}
+}

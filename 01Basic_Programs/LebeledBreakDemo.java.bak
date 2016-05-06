@@ -1,0 +1,21 @@
+class LebeledBreakDemo 
+{
+	public static void main(String[] args) 
+	{
+		for (int i = 0;i<3 ;i++ )
+		{
+		System.out.println("pass"+i+"i");
+			{
+				for (int j = 0;j<100 ;j++ )
+				{
+					if (j==1)
+					{
+						break;
+					}
+					System.out.println("this will be not printed");
+				}
+				System.out.println("both lops are completed");
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+class ForDemo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("begin of for loop");
+		int a = 10;
+		for (int i = 0; i<5; i++ )
+		{
+         System.out.println("insid for loop");
+		 System.out.println("value of i is"+i);
+		}
+          System.out.println("End of for loop");
+		  System.out.print("insid for loop"+"\t"); 
+		  }
+         }

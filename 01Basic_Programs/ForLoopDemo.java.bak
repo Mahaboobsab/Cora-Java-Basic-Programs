@@ -1,0 +1,17 @@
+class ForLoopDemo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		int a[] = {1,2,3,4,5};
+		int sum = 0;
+		for (int i = 0;i<a.length;i++ )
+		{
+        System.out.println("value in the arry are"+a[i]);
+		int p = a[i];
+		sum += p;
+		System.out.println("sum of all the value in the arry "+sum);
+       }
+			
+	}
+}

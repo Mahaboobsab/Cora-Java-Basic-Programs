@@ -1,0 +1,13 @@
+class StringLiteralDemo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		char x = 'A';
+		System.out.println("value of x is"+x);
+		String s1="\"hello world\'";
+		System.out.println("value of s1 is"+s1); 
+
+
+	}
+}
