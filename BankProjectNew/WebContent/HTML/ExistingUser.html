@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Neo Rays Banking Project</title>
+<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>  
+      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+      <script>  
+         $(function() {  
+            $( "#button").button();  
+            
+         });  
+      </script>
+<script>
+function NameValidation(el){
+ var ex = /^[a-zA-Z]*$/;
+ if(ex.test(el.value)==false){
+   el.value = el.value.substring(0,el.value.length - 1);
+  }
+}
+</script>
+<script>
+function PassValidation(el){
+ var ex = /^[a-zA-Z0-9]*$/;
+ if(ex.test(el.value)==false){
+   el.value = el.value.substring(0,el.value.length - 1);
+  }
+}
+</script>
+
+<style>
+#h1
+{
+text-align:center;
+}
+#div1
+{
+height:50px;
+background-color:purple;
+}
+</style>
+
+
+
+</head>
+<body bgcolor='wheat'>
+<div id="div1">
+	<h1 id="h1" style="border: 0; color: blue; font-weight: bold;">
+		NeoRays Banking Application
+	</h1>
+	</div>
+	<br>
+	<br>
+	<h2 style="border: 0; color: blue; font-weight: bold;">Please
+		Provide Following Details:</h2>
+	<br>
+	<table>
+	
+			
+			<tr>
+				<td><p style=color:blue;>User Name:</p></td>
+				<td><input type="text" name="userid" onkeyup="NameValidation(this)" /></td>
+			</tr>
+			<tr>
+				<td><p style=color:blue;>Password:</td>
+				<td><input type="password" name="pwd" onkeyup="PassValidation(this)" /></td>
+			</tr>
+		
+		
+	</table>
+	<button style="float:centre" id="button">submit</button>
+</body>
+</html>
