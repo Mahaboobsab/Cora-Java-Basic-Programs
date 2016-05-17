@@ -1,0 +1,11 @@
+class Hello
+{
+void m1 (int ...a)
+{
+System.out.println("Inside of m1")
+for (int x:a)
+{
+System.out.println("value of a is"+x);
+}
+}
+class VarArgsDemo1
